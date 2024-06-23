@@ -1,0 +1,7 @@
+create:  python -m venv (venv name)
+
+activate: venvName\Scripts\activate
+deactivate: deactivate
+
+requirements generating: pip freeze > requirements.txt
+requirements installing libs: pip install -r .\requirements.txt
